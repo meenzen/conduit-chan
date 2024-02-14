@@ -31,7 +31,7 @@ ruma = { git = "https://github.com/ruma/ruma", rev = "68c9bb0930f2195fa8672fbef9
 hyperlocal = { git = "https://github.com/softprops/hyperlocal", rev = "2ee4d149644600d326559af0d2b235c945b05c04", features = [
   "server",
 ] }
-hyper = { version = "0.14", features = ["server", "http1", "http2"] }
+hyper = { version = "1.1", features = ["server", "http1", "http2"] }
 tokio = { version = "1.36.0", features = ["fs", "macros", "signal", "sync"] }
 
 # Used for the http request / response body type for Ruma endpoints used with reqwest
