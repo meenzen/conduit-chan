@@ -95,7 +95,7 @@ figment = { version = "0.10.14", features = ["env", "toml"] }
 tikv-jemalloc-ctl = { version = "0.5.4", features = ["use_std"], optional = true }
 tikv-jemallocator = { version = "0.5.4", features = ["unprefixed_malloc_on_supported_platforms"], optional = true }
 lazy_static = "1.4.0"
-async-trait = "0.1.77"
+async-trait = "0.1.79"
 
 # used for checking if an IP is in specific subnets / CIDR ranges
 ipaddress = "0.1.3"
